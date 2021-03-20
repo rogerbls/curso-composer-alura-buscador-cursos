@@ -2,6 +2,7 @@
     "name": "rogerbls/buscardor-cursos",
     "description": "Projeto para buscar cursos site da alura",
     "type": "library",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Roger",
