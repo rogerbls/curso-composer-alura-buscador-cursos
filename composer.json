@@ -8,11 +8,14 @@
             "email": "rogerbls51@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "license": "MIT",
     "require": {
         "guzzlehttp/guzzle": "^7.2",
         "symfony/dom-crawler": "^5.2",
         "symfony/css-selector": "^5.2"
     },
+    
     "autoload": {
         "files": [
             "./functions.php"
@@ -42,5 +45,6 @@
     },
      "scripts-descriptions":{
            "check": "Roda verificações PHAN, PHPCS e PHPUNIT"
-    }
+    },
+    "bin": ["buscar-cursos.php"]
 }
